@@ -1,0 +1,11 @@
+c:\users\fynz\source\repos\MoguMaze\MoguMaze\bin\Debug\netcoreapp2.0\MoguMaze.deps.json
+c:\users\fynz\source\repos\MoguMaze\MoguMaze\bin\Debug\netcoreapp2.0\MoguMaze.runtimeconfig.json
+c:\users\fynz\source\repos\MoguMaze\MoguMaze\bin\Debug\netcoreapp2.0\MoguMaze.runtimeconfig.dev.json
+c:\users\fynz\source\repos\MoguMaze\MoguMaze\bin\Debug\netcoreapp2.0\MoguMaze.dll
+c:\users\fynz\source\repos\MoguMaze\MoguMaze\bin\Debug\netcoreapp2.0\MoguMaze.pdb
+c:\users\fynz\source\repos\MoguMaze\MoguMaze\obj\Debug\netcoreapp2.0\MoguMaze.csprojResolveAssemblyReference.cache
+c:\users\fynz\source\repos\MoguMaze\MoguMaze\obj\Debug\netcoreapp2.0\MoguMaze.csproj.CoreCompileInputs.cache
+c:\users\fynz\source\repos\MoguMaze\MoguMaze\obj\Debug\netcoreapp2.0\MoguMaze.AssemblyInfoInputs.cache
+c:\users\fynz\source\repos\MoguMaze\MoguMaze\obj\Debug\netcoreapp2.0\MoguMaze.AssemblyInfo.cs
+c:\users\fynz\source\repos\MoguMaze\MoguMaze\obj\Debug\netcoreapp2.0\MoguMaze.dll
+c:\users\fynz\source\repos\MoguMaze\MoguMaze\obj\Debug\netcoreapp2.0\MoguMaze.pdb

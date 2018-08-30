@@ -56,7 +56,7 @@ namespace MoguMaze.Maze
 
             Console.WriteLine(sb.ToString());
 
-            Thread.Sleep(100);
+            Thread.Sleep(150);
         }
 
         // Move player on the Y axisis to the TOP
@@ -113,6 +113,15 @@ namespace MoguMaze.Maze
         public void MoveDown()
         {
 
+        }
+
+
+        public void RegisterInputs(InputHandler handler)
+        {
+            handler.Register(MoveTop, ConsoleKey.UpArrow);
+            handler.Register(MoveBottom, ConsoleKey.DownArrow);
+            handler.Register(MoveLeft, ConsoleKey.LeftArrow);
+            handler.Register(MoveRight, ConsoleKey.RightArrow);
         }
 
         public void HandleInput()

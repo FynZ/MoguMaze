@@ -5,6 +5,7 @@ using System.Threading;
 
 namespace MoguMaze.Maze
 {
+    [Obsolete]
     class Maze
     {
         private char[,] _maze;

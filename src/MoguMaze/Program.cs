@@ -11,18 +11,21 @@ namespace MoguMaze
 
         static void Main(string[] args)
         {
-            var a = new MazeBis();
-            a.PrintMaze();
+            var maze = new MazeBis();
+            maze.PrintMaze();
             Console.ReadKey();
 
-            var t = new Thread(a.HandleInput) {IsBackground = true};
+            var listener = InputHandler.GetInstance();
+            maze.RegisterInputs(listener);
+
+            var t = new Thread(listener.HandleInput) {IsBackground = true};
             t.Start();
 
             while (Play)
             {
                 Console.Clear();
                 //maze.Display();
-                a.PrintSurrounding();
+                maze.PrintSurrounding();
                 //maze.HandleInput();
             }
         }

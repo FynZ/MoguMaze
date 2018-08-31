@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using MoguMaze.Game.Nodes;
 
-namespace MoguMaze.Maze
+namespace MoguMaze.Game
 {
     class MazeGenerator
     {

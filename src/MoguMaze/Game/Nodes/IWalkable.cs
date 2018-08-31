@@ -1,4 +1,4 @@
-﻿namespace MoguMaze.Maze
+﻿namespace MoguMaze.Game.Nodes
 {
     public interface IWalkable
     {

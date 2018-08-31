@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Reflection.Metadata.Ecma335;
 using System.Text;
 
-namespace MoguMaze.Maze
+namespace MoguMaze.Game.Nodes
 {
     public class Wall : Node, INode
     {

@@ -1,16 +1,17 @@
 ﻿using System;
 using System.Text;
 using System.Threading;
+using MoguMaze.Game.Nodes;
 
-namespace MoguMaze.Maze
+namespace MoguMaze.Game
 {
-    public class MazeBis
+    public class Maze
     {
         private INode[,,] _maze;
 
         private Position _player;
 
-        public MazeBis()
+        public Maze()
         {
             _maze = new MazeGenerator(20, 20, 3).GenerateMaze(out _player);
         }

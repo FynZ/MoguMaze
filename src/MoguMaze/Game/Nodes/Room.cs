@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace MoguMaze.Maze
+namespace MoguMaze.Game.Nodes
 {
     public class Room : Node, INode, IWalkable
     {

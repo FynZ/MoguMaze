@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MoguMaze.Maze
+namespace MoguMaze.Game.Nodes
 {
     public abstract class Node
     {

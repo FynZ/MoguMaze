@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace MoguMaze.Maze
+namespace MoguMaze.Game.Nodes
 {
     public enum TileType
     {
